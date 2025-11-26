@@ -1,10 +1,3 @@
-import React, { useState } from 'react';
-import { Routes, Route, useLocation } from 'react-router-dom';
-import Step1Basics from './components/Step1Basics';
-import Step2RewardsTimeline from './components/Step2RewardsTimeline';
-import Step3BackerInformation from './components/Step3BackerInformation';
-import ConfirmationPage from './components/ConfirmationPage';
-import ResultsPage from './components/ResultsPage';
 import React from 'react';
 import { FormProvider } from './context/FormContext';
 import AppContent from './AppContent';
